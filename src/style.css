@@ -419,6 +419,24 @@ main .background {
   #cta {
     padding-left: var(--page-padding-tablet);
     padding-right: var(--page-padding-tablet);
+    .container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    img {
+      min-width: 41%;
+    }
+
+    .content {
+      margin-top: 0;
+      min-width: 74%;
+      margin-left: -15%;
+      margin-top: 25%;
+      text-align: start;
+      align-items: flex-start;
+      padding: 3rem;
+    }
   }
 }
 
