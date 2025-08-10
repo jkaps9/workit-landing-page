@@ -275,6 +275,10 @@ body {
   }
 }
 
+main .background {
+  background-color: var(--slate-100);
+}
+
 @media only screen and (min-width: 48rem) {
   #hero {
     padding-left: var(--page-padding-tablet);
