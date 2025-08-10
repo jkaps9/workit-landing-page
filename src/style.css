@@ -313,6 +313,7 @@ body {
   }
 
   .number {
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,6 +343,15 @@ body {
   #features {
     padding-left: var(--page-padding-tablet);
     padding-right: var(--page-padding-tablet);
+
+    li {
+      flex-direction: row;
+      text-align: start;
+    }
+
+    .content {
+      align-items: flex-start;
+    }
   }
 }
 
