@@ -205,6 +205,7 @@ body {
   padding: 3.5rem var(--page-padding) 9rem;
   background-color: var(--slate-900);
   color: var(--white);
+  text-align: center;
   .container {
     width: 100%;
     position: relative;
@@ -212,7 +213,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 2.5rem;
   }
 
   .underlined {
