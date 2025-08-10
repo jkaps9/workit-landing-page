@@ -210,9 +210,9 @@ body {
   background-color: var(--slate-900);
   color: var(--white);
   text-align: center;
+  z-index: 1;
   .container {
     width: 100%;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,11 +235,12 @@ body {
       left: 0;
     }
   }
+}
 
+#image {
+  z-index: 2;
+  margin-top: -25%;
   img {
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
   }
 }
