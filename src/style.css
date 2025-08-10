@@ -281,6 +281,9 @@ body {
     padding-right: var(--page-padding-tablet);
   }
 
+  #image {
+    margin-top: -104px;
+  }
   img {
     max-width: 515px;
   }
