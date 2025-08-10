@@ -72,6 +72,13 @@ body {
 /* *************** */
 /* Utility Classes */
 /* *************** */
+@media only screen and (min-width: 64rem) {
+  .container {
+    max-width: calc(var(--container-max-width));
+    margin: 0 auto;
+  }
+}
+
 .button-primary {
   display: inline-block;
   color: var(--slate-900);
