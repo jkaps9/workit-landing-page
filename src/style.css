@@ -33,7 +33,10 @@ body {
   overflow-x: hidden;
 }
 
-/* FONTS */
+/* ****** */
+/* FONTS  */
+/* ****** */
+
 /* fraunces-600 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -61,47 +64,9 @@ body {
   src: url("../fonts/manrope-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+/* *************** */
 /* Utility Classes */
-.text-preset-1 {
-  font-family: var(--header-font);
-  font-size: 80px;
-  font-weight: 600;
-  line-height: 1em;
-  letter-spacing: 0px;
-}
-
-.text-preset-2 {
-  font-family: var(--header-font);
-  font-size: 56px;
-  font-weight: 600;
-  line-height: 1.2em;
-  letter-spacing: 0px;
-}
-
-.text-preset-3 {
-  font-family: var(--header-font);
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 1.2em;
-  letter-spacing: 0px;
-}
-
-.text-preset-4 {
-  font-family: var(--body-font);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.8em;
-  letter-spacing: 0px;
-}
-
-.text-preset-5 {
-  font-family: var(--body-font);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.5em;
-  letter-spacing: 0px;
-}
-
+/* *************** */
 .button-primary {
   display: inline-block;
   color: var(--slate-900);
@@ -130,6 +95,94 @@ body {
   }
 }
 
+/* ************ */
+/* Text Classes */
+/* ************ */
+
+.text-preset-1 {
+  font-family: var(--header-font);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1em;
+  letter-spacing: 0px;
+}
+
+.text-preset-2 {
+  font-family: var(--header-font);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+}
+
+.text-preset-3 {
+  font-family: var(--header-font);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+}
+
+.text-preset-4 {
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+}
+
+.text-preset-5 {
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+}
+
+@media only screen and (min-width: 48rem) {
+  .text-preset-1 {
+    font-size: 60px;
+  }
+
+  .text-preset-2 {
+    font-size: 48px;
+  }
+
+  .text-preset-3 {
+    font-size: 28px;
+  }
+
+  .text-preset-4 {
+    font-size: 16px;
+  }
+
+  .text-preset-5 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .text-preset-1 {
+    font-size: 80px;
+  }
+
+  .text-preset-2 {
+    font-size: 56px;
+  }
+
+  .text-preset-3 {
+    font-size: 32px;
+  }
+
+  .text-preset-4 {
+    font-size: 18px;
+  }
+
+  .text-preset-5 {
+    font-size: 18px;
+  }
+}
+
 /* ****** */
 /* HEADER */
 /* ****** */
@@ -141,5 +194,31 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+  }
+}
+
+/* ****** */
+/*  HERO  */
+/* ****** */
+
+#hero {
+  padding: 3.5rem var(--page-padding) 9rem;
+  background-color: var(--slate-900);
+
+  .container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
