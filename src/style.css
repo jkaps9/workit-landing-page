@@ -309,6 +309,23 @@ body {
   }
 
   img {
-    width: 100%;
+    width: 84%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content {
+    background-color: var(--slate-900);
+    padding: 2rem;
+    color: var(--white);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: -3rem;
+    z-index: 2;
+    position: relative;
   }
 }
