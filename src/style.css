@@ -52,7 +52,8 @@ body {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/manrope-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../src/assets/fonts/manrope-v19-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* manrope-700 - latin */
@@ -61,7 +62,7 @@ body {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/manrope-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../src/assets/fonts/manrope-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* *************** */
