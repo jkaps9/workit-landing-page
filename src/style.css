@@ -26,6 +26,7 @@
 }
 
 /* Base Element Styling */
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -78,6 +79,7 @@ h1 {
 
 /* Utility Classes */
 .text-preset-1 {
+  font-family: var(--header-font);
   font-size: 80px;
   font-weight: 600;
   line-height: 1em;
@@ -85,6 +87,7 @@ h1 {
 }
 
 .text-preset-2 {
+  font-family: var(--header-font);
   font-size: 56px;
   font-weight: 600;
   line-height: 1.2em;
@@ -92,6 +95,7 @@ h1 {
 }
 
 .text-preset-3 {
+  font-family: var(--header-font);
   font-size: 32px;
   font-weight: 600;
   line-height: 1.2em;
@@ -99,6 +103,7 @@ h1 {
 }
 
 .text-preset-4 {
+  font-family: var(--body-font);
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8em;
@@ -106,6 +111,7 @@ h1 {
 }
 
 .text-preset-5 {
+  font-family: var(--body-font);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.5em;
