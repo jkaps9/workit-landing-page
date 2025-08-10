@@ -296,3 +296,18 @@ body {
     gap: 1rem;
   }
 }
+
+/* ********** */
+/*     CTA    */
+/* ********** */
+
+#cta {
+  padding: 7rem var(--page-padding) 0;
+  .container {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
