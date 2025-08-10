@@ -10,14 +10,16 @@
   /* COLORS */
   --green: #44ffa1;
 
-  --purple-900: #24053e;
-  --purple-500: #584d62;
-  --purple-100: #fcf8ff;
+  --slate-900: #24053e;
+  --slate-500: #584d62;
+  --slate-100: #fcf8ff;
 
   --white: #ffffff;
 
   --header-font: "Fraunces", "Times New Roman", Times, serif;
   --body-font: "Manrope", Arial, Helvetica, sans-serif;
+
+  --page-padding: 1.25rem;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -100,4 +102,16 @@ body {
   letter-spacing: 0px;
 }
 
-/* STYLES */
+/* ****** */
+/* HEADER */
+/* ****** */
+
+#header {
+  padding: 2rem var(--page-padding) 0;
+  background-color: var(--slate-900);
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
