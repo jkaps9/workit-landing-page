@@ -204,7 +204,7 @@ body {
 #hero {
   padding: 3.5rem var(--page-padding) 9rem;
   background-color: var(--slate-900);
-
+  color: var(--white);
   .container {
     width: 100%;
     position: relative;
@@ -213,6 +213,22 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+  }
+
+  .underlined {
+    position: relative;
+    display: inline-block;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: var(--green);
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+    }
   }
 
   img {
