@@ -345,4 +345,9 @@ body {
     align-items: center;
     gap: 3.5rem;
   }
+
+  .socials {
+    display: flex;
+    gap: 1.75rem;
+  }
 }
