@@ -266,6 +266,10 @@ body {
 #image {
   z-index: 2;
   margin-top: -25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   img {
     width: 100%;
   }
@@ -276,12 +280,20 @@ body {
     padding-left: var(--page-padding-tablet);
     padding-right: var(--page-padding-tablet);
   }
+
+  img {
+    max-width: 515px;
+  }
 }
 
 @media only screen and (min-width: 64rem) {
   #hero {
     padding-left: var(--page-padding-desktop);
     padding-right: var(--page-padding-desktop);
+  }
+
+  img {
+    max-width: 767px;
   }
 }
 
