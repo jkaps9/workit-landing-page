@@ -244,3 +244,47 @@ body {
     width: 100%;
   }
 }
+
+/* ********** */
+/*  FEATURES  */
+/* ********** */
+
+#features {
+  padding: 4rem var(--page-padding);
+  .container {
+    width: 100%;
+  }
+
+  .container > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid var(--slate-500);
+    border-radius: 99px;
+
+    font-family: var(--header-font);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.4em;
+    letter-spacing: 0;
+    color: var(--slate-900);
+  }
+}
