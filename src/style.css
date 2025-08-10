@@ -75,6 +75,10 @@ body {
   text-align: start;
   padding: 0.75rem 2rem;
   border: 2px solid var(--green);
+  font-family: var(--body-font);
+  font-size: 1rem;
+  line-height: 1.8em;
+  font-weight: 700;
 
   &:hover {
     color: var(--green);
