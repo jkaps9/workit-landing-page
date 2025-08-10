@@ -287,4 +287,12 @@ body {
     letter-spacing: 0;
     color: var(--slate-900);
   }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 }
