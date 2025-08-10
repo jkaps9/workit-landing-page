@@ -20,6 +20,8 @@
   --body-font: "Manrope", Arial, Helvetica, sans-serif;
 
   --page-padding: 1.25rem;
+  --page-padding-tablet: 2.75rem;
+  --page-padding-desktop: 5rem;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
