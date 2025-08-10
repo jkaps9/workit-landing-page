@@ -251,6 +251,7 @@ body {
 
 #features {
   padding: 4rem var(--page-padding);
+  background-color: var(--slate-100);
   .container {
     width: 100%;
   }
