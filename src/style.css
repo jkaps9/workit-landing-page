@@ -263,6 +263,14 @@ body {
   }
 }
 
+#image {
+  z-index: 2;
+  margin-top: -25%;
+  img {
+    width: 100%;
+  }
+}
+
 @media only screen and (min-width: 48rem) {
   #hero {
     padding-left: var(--page-padding-tablet);
@@ -274,14 +282,6 @@ body {
   #hero {
     padding-left: var(--page-padding-desktop);
     padding-right: var(--page-padding-desktop);
-  }
-}
-
-#image {
-  z-index: 2;
-  margin-top: -25%;
-  img {
-    width: 100%;
   }
 }
 
