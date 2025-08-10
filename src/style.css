@@ -23,6 +23,8 @@
   --page-padding-tablet: 2.75rem;
   --page-padding-desktop: 5rem;
 
+  --container-max-width: 70rem;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
