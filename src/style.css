@@ -114,4 +114,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  a {
+    color: var(--white);
+  }
 }
