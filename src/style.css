@@ -346,6 +346,7 @@ body {
 
     li {
       flex-direction: row;
+      gap: 3.5rem;
       text-align: start;
     }
 
