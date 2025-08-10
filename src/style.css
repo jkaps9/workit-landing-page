@@ -102,6 +102,34 @@ body {
   letter-spacing: 0px;
 }
 
+.button-primary {
+  display: inline-block;
+  color: var(--slate-900);
+  background-color: var(--green);
+  text-decoration: none;
+  text-align: start;
+  padding: 0.75rem 2rem;
+  border: 2px solid var(--green);
+
+  &:hover {
+    color: var(--green);
+    background-color: var(--white);
+  }
+}
+
+.button-secondary {
+  display: inline-block;
+  color: var(--white);
+  background-color: transparent;
+  text-decoration: none;
+  border-bottom: 3px solid var(--green);
+  text-align: start;
+
+  &:hover {
+    color: var(--green);
+  }
+}
+
 /* ****** */
 /* HEADER */
 /* ****** */
@@ -113,8 +141,5 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-  }
-  a {
-    color: var(--white);
   }
 }
