@@ -380,6 +380,19 @@ main .background {
   #features {
     padding-left: var(--page-padding-desktop);
     padding-right: var(--page-padding-desktop);
+
+    .container > ul {
+      flex-direction: row;
+    }
+
+    li {
+      flex-direction: column;
+    }
+
+    .content {
+      text-align: center;
+      align-items: center;
+    }
   }
 }
 
@@ -444,6 +457,15 @@ main .background {
   #cta {
     padding-left: var(--page-padding-desktop);
     padding-right: var(--page-padding-desktop);
+
+    .content {
+      margin-left: -7%;
+      margin-top: 15%;
+    }
+
+    img {
+      min-width: 43%;
+    }
   }
 }
 
