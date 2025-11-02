@@ -278,6 +278,12 @@ body {
 main .background {
   background-color: var(--slate-100);
   z-index: -1;
+  position: relative;
+  .bg-pattern-one,
+  .bg-pattern-two {
+    visibility: hidden;
+    position: absolute;
+  }
 }
 
 @media only screen and (min-width: 48rem) {
@@ -291,6 +297,19 @@ main .background {
   }
   img {
     max-width: 515px;
+  }
+
+  main .background {
+    .bg-pattern-one {
+      visibility: visible;
+      top: 0;
+      left: -101px;
+    }
+    .bg-pattern-two {
+      visibility: visible;
+      top: 0;
+      right: -46px;
+    }
   }
 }
 
@@ -425,6 +444,10 @@ main .background {
     margin-top: -3rem;
     z-index: 2;
     position: relative;
+    .bg-pattern-three {
+      visibility: hidden;
+      position: absolute;
+    }
   }
 }
 
@@ -449,6 +472,11 @@ main .background {
       text-align: start;
       align-items: flex-start;
       padding: 3rem;
+      .bg-pattern-three {
+        visibility: visible;
+        bottom: -64px;
+        right: 108px;
+      }
     }
   }
 }
