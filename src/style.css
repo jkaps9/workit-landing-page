@@ -239,26 +239,6 @@ body {
   z-index: 1;
   position: relative;
 
-  .custom-shape-divider-bottom-1762134752 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-  }
-
-  .custom-shape-divider-bottom-1762134752 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 1.5rem;
-  }
-
-  .custom-shape-divider-bottom-1762134752 .shape-fill {
-    fill: var(--slate-100);
-  }
-
   .container {
     width: 100%;
     display: flex;
@@ -347,6 +327,42 @@ main .background {
   }
 }
 
+.custom-shape-divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 1.5rem;
+}
+
+.top-divider .shape-fill {
+  fill: var(--slate-100);
+}
+
+.bottom-divider .shape-fill {
+  fill: var(--white);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-bottom svg {
+    height: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-shape-divider-bottom svg {
+    height: 4.5rem;
+  }
+}
+
 /* ********** */
 /*  FEATURES  */
 /* ********** */
@@ -354,6 +370,7 @@ main .background {
 #features {
   padding: 4rem var(--page-padding);
   background-color: var(--slate-100);
+  position: relative;
   .container {
     width: 100%;
   }
