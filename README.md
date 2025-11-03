@@ -38,9 +38,7 @@ Users should be able to:
 - CSS custom properties
 - Flexboxg
 - Mobile-first workflow
-- [11ty](https://11ty.dev) - Static Site Generator
-- [sass](https://sass-lang.com/) - CSS Preprocessor
-- Nunjucks
+- Vite
 
 ## Author
 
