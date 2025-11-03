@@ -237,6 +237,28 @@ body {
   color: var(--white);
   text-align: center;
   z-index: 1;
+  position: relative;
+
+  .custom-shape-divider-bottom-1762134752 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-bottom-1762134752 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 1.5rem;
+  }
+
+  .custom-shape-divider-bottom-1762134752 .shape-fill {
+    fill: var(--slate-100);
+  }
+
   .container {
     width: 100%;
     display: flex;
@@ -270,6 +292,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  position: relative;
   img {
     width: 100%;
   }
